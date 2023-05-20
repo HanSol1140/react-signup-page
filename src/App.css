@@ -1,0 +1,232 @@
+.App {
+  min-width: 1000px;
+  max-width: 1920px;
+  height: 100%;
+  min-height: 100%;
+}
+
+
+
+/* 헤더 */
+.header {
+  padding: 0 30%;
+  background-color: #6ba9fe;
+  color: #fff;
+  width: 100%;
+  height: 100px;
+}
+.header ul {
+  font-size: 32px;
+  padding-top: 34px;
+  padding-bottom: 34px;
+  padding-left: 12px;
+}
+
+
+/* 메인 */
+
+
+.main {
+  padding: 0 30%;
+  width: 100%;
+  /* height: 900px; */
+  
+}
+
+/* 상단 메세지 */
+
+.main .warningtext ul {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  color: #aaa;
+
+}
+.main .warningtext ul li:nth-child(1) {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+/* //상단 메세지 */
+
+
+/* 회원정보 입력란 */
+.main .memberinfo ul {
+  padding-top: 24px;
+  padding: 50px;
+}
+.main .memberinfo ul li {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.main .memberinfo ul li p:nth-child(1) {
+  
+  font-size: 20px;
+  font-weight: bold;
+  padding: 4px 4px;
+  margin-bottom: 8px;
+}
+
+.main .memberinfo ul li p b{
+  color: red;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.main .memberinfo ul li div {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.main .memberinfo ul li div button{
+  margin-left: 12px;
+  min-width: 100px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #afafbf;
+  border-radius: 4px;
+}
+
+.main .memberinfo ul li div button:hover {
+  cursor: pointer;
+}
+
+.main .memberinfo ul li div input {
+  width: 100%;
+  font-size: 20px;
+  padding: 8px 4px;
+  /* border-radius: 4px; */
+  border: 1px solid #ccc;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+ /* 주민번호 */
+
+.main .memberinfo ul li:nth-child(2) div {
+  color: #000;
+  width: 100%;
+  display: flex;
+}
+.main .memberinfo ul li:nth-child(2) input{
+  flex-grow: 1;
+
+}
+  /* 주민등록번호 */
+
+  /* 아이디 */
+.main .memberinfo ul li:nth-child(3) div {
+  display: flex;
+}
+  /* //아이디 */
+
+  /* 비밀번호 */
+.main .memberinfo ul li:nth-child(4) div p{
+  font-size: 12px;
+  margin-top: 4px;
+  font-weight: 300;
+}
+.main .memberinfo ul li:nth-child(4) div .passwordalert1 {
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+}
+.main .memberinfo ul li:nth-child(4) div .passwordalert2 {
+  color: green;
+  font-weight: bold;
+  font-size: 16px;
+}
+.main .memberinfo ul li:nth-child(4) div .passwordnotice {
+  color: #797;
+}
+  /* //비밀번호 */
+
+  /* 휴대폰 번호 */
+
+.main .memberinfo ul li:nth-child(5) div {
+  display: flex;
+}
+.main .memberinfo ul li:nth-child(5) div input {
+  flex-grow: 1;
+  
+}
+  /* //휴대폰 번호 */
+.main .memberinfo ul li::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+ /* 이메일 */
+.main .memberinfo ul li:nth-child(6) {
+  margin-bottom: 50px;
+}
+.main .memberinfo ul li:nth-child(6) div {
+  display: flex;  
+}
+.main .memberinfo ul li:nth-child(6) input{
+  flex-grow: 1;
+}
+.main .memberinfo ul li:nth-child(6) select {
+  width: 20%;
+  min-width: 100px;
+  margin-left: 12px;
+  font-size: 16px;
+  padding: 4px;
+}
+ /* //이메일 */
+
+ /* 회원가입 완료 */
+ .main .memberinfo ul li:nth-child(7) {
+   display: flex;
+   flex-direction: row-reverse;
+ }
+ .main .memberinfo ul li:nth-child(7) button {
+    width: 150px;
+    padding: 8px 8px;
+    background-color: #0aa7f5;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 12px;
+    border-radius: 4px;
+
+ }
+
+ .main .memberinfo ul li:nth-child(7) button:hover {
+  background-color: #2222ff;
+ }
+
+ /* //회원가입 완료 */
+
+/* //회원정보 입력란 */
+
+/* Footer */
+.footer {
+
+  width: 100%;
+  background-color: #076fff;
+  padding: 0 15%;
+}
+.footer article{
+  padding-top: 10px;
+  color: #fff;
+}
+.footer article ul {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.footer article ul li{
+  font-weight: 300;
+  font-size: 12px;
+  padding-left: 20px;
+  margin-bottom: 8px;
+}
+.footer article ul li:nth-child(1) {
+  margin-top: 10px;
+}
+/* //Footer */
